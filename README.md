@@ -163,10 +163,8 @@ Do **not** commit `.env` to Git.
 Add this to `.gitignore`:
 
 ```gitignore
-**/.env
-**/.env.*
-**/node_modules/
-**/uploads/
+.env
+node_modules/
 ```
 
 The Gemini API key should remain on the backend and should never be placed directly in React/Vite frontend code.
