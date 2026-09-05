@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dagrejs/dagre": "^3.0.0",
+    "@google/genai": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.5.2",
+    "mammoth": "^1.8.0",
+    "multer": "^1.4.5-lts.1",
+    "officeparser": "^5.1.1",
+    "pdf-parse": "^1.1.1"
+  }
+}

@@ -1,0 +1,97 @@
+.mindmap-card {
+
+    background: white;
+
+    padding: 24px;
+
+    border-radius: 24px;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .06);
+
+}
+
+.mindmap-header div {
+    text-align: left;
+}
+
+.mindmap-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+
+}
+
+.mindmap-header h2 {
+
+    font-size: 28px;
+
+    margin-bottom: 6px;
+
+    color: #23253b;
+
+}
+
+.mindmap-header p {
+
+    color: #888;
+
+}
+
+.map-buttons {
+
+    display: flex;
+
+    gap: 12px;
+
+}
+
+.map-buttons button {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 12px 18px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    cursor: pointer;
+
+    background: #bdbdbd;
+
+    transition: .25s;
+
+    font-weight: 600;
+
+}
+
+.map-buttons button:hover {
+
+    background: #6C5CF6;
+
+    color: white;
+
+}
+
+.flow-wrapper {
+
+    height: 620px;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    background: #FBFBFE;
+
+    border: 1px solid #ececf5;
+
+}

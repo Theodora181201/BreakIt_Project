@@ -1,0 +1,39 @@
+.hero {
+
+    margin: 40px 0;
+
+    text-align: center;
+
+}
+
+.hero h1 {
+
+    font-size: 56px;
+
+    font-weight: 800;
+
+    color: #23253a;
+
+}
+
+.hero span {
+
+    background: linear-gradient(90deg, #4b43ff, #5ba8ff);
+
+    /* -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    color: transparent;
+
+}
+
+.hero p {
+
+    margin-top: 15px;
+
+    font-size: 20px;
+
+    color: #6f7484;
+
+}

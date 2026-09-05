@@ -1,0 +1,174 @@
+.custom-node {
+
+    min-width: 220px;
+
+    max-width: 280px;
+
+    background: white;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.08);
+
+}
+
+
+.custom-node.expanded {
+
+    width: 260px;
+
+}
+
+
+/* Header */
+
+.node-header {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 12px;
+
+    padding: 14px;
+
+}
+
+
+.node-title {
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    line-height: 1.4;
+
+    color: #222;
+
+}
+
+
+/* + / - button */
+
+.expand-button {
+
+    width: 28px;
+
+    height: 28px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border: none;
+
+    border-radius: 7px;
+
+    background: #eef2ff;
+
+    color: #6c63ff;
+
+    cursor: pointer;
+
+}
+
+
+.expand-button:hover {
+
+    background: #e0e7ff;
+
+}
+
+
+/* Expanded content */
+
+.node-details {
+
+    padding: 0 14px 15px;
+
+    border-top: 1px solid #e5e7eb;
+
+    text-align: left;
+
+}
+
+
+.node-description {
+
+    margin: 12px 0;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+
+    color: #4b5563;
+
+}
+
+
+/* Key points */
+
+.node-points {
+
+    font-size: 12px;
+
+    color: #374151;
+
+}
+
+
+.node-points strong {
+
+    display: block;
+
+    margin-bottom: 7px;
+
+}
+
+
+.node-points ul {
+
+    margin: 0;
+
+    padding-left: 18px;
+
+}
+
+
+.node-points li {
+
+    margin-bottom: 5px;
+
+    line-height: 1.4;
+
+}
+
+
+/*
+ * Hide React Flow's connection dots
+ * but keep the handles functional.
+ */
+
+.hidden-handle {
+
+    opacity: 0;
+
+    width: 1px !important;
+
+    height: 1px !important;
+
+    border: none !important;
+
+    background: transparent !important;
+
+}
+
