@@ -173,7 +173,7 @@ The Gemini API key should remain on the backend and should never be placed direc
 
 ---
 
-# 7. Run Frontend and Backend Together
+# 6. Run Frontend and Backend Together
 
 You need both servers running.
 
