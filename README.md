@@ -1,4 +1,4 @@
-# Break It. — AI Mind Map Generator
+# Break It. — AI Mind Map Generator 🧠
 
 > **Transform. Understand. Remember.**
 
