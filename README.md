@@ -4,6 +4,8 @@
 
 Break It. is a web application that transforms learning materials into interactive mind maps. Users can either upload a supported document/image or paste their own notes. The backend processes the material with the Gemini API and returns a structured mind map that is displayed using React Flow.
 
+<img width="1506" height="1771" alt="breakit-project-09-19-2026_11_36_PM" src="https://github.com/user-attachments/assets/38aee8c3-dbfe-44ca-84af-707d54fbf7fe" />
+
 ## Features
 
 - Upload learning materials:
